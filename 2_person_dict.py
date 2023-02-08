@@ -7,13 +7,16 @@ person["children"] = ["Ralph", "Betty", "Joey"]
 person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
 
+
+
 #Name of the second child 
 print(person["children"][1])
 
-#Name of the cat 
-print(type(person['pets']))
-print(person['pets']['cat'])
 
+#Name of the cat 
+
+print(person['pets']['dog'])
+print(person["pets"].keys())
 #List each child 
 
 for i in person['children']:
