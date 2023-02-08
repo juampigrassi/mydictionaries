@@ -10,13 +10,15 @@ person["pets"] = {"dog": "Fido", "cat": "Sox"}
 
 
 #Name of the second child 
+
 print(person["children"][1])
 
 
 #Name of the cat 
 
-print(person['pets']['dog'])
-print(person["pets"].keys())
+print(person['pets']['cat'])
+
+
 #List each child 
 
 for i in person['children']:
