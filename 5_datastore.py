@@ -55,12 +55,12 @@ list1 = datastore['medical']
 
 
 for dict in list1:
-  room_number = dict['room_number']
+  room_number = dict['room-number']
   use = dict['use']
   sq = dict['sq-ft']
   price = dict['price']
 
-  outfile.write(str(room_number) + ',' + use + ', ' + str(sq) + ',' + str(price) + '\n')
+  outfile.write(str(room_number) + ',' + use + ', ' + str(sq) + ',' + str(price) + '\n') 
 
 print(dict)
 outfile.close()

@@ -207,18 +207,6 @@ ProduceDictionary={
     }
 }
 
-"""
-for k,j in ProduceDictionary.items():
-    if round((j['cost'] * j['amt_sold']),2) == j['total']:
-        status = 'Incorrect'
-    elif round((j['cost'] * j['amt_sold']),2) != j['total']:
-        status = 'Correct'
-    if status == 'Incorrect':
-        print('produce name: ', k)
-        print('Calculated total: ', round(j['cost'] * j['amt_sold']))
-        print('Stated Total: ', j['total'])
-
-"""
 for produce in ProduceDictionary:
     cost = ProduceDictionary[produce]['cost']
     amt_sold = ProduceDictionary[produce]['amt_sold']
@@ -231,4 +219,3 @@ for produce in ProduceDictionary:
         print()
         print()
 
-print(type(produce))
