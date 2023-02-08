@@ -5,7 +5,6 @@ phonebook = {'Chris':'555−1111',
              'Katie':'555−2222',
              'Joanne':'555−3333'}
 
-"""
 mydictionary = dict(yo=4076395442 , ella=2549007300)
 print(mydictionary)
 print(mydictionary['ella'])
@@ -39,9 +38,6 @@ print()
 print('*****  end section 2 ********')
 print()
 
-"""
-
-
 
 print()
 print('*****  start section 3 - edit/append dictionary ********')
@@ -54,7 +50,7 @@ phonebook['Joe'] = '555-0123'  #Appended to the dictionary
 
 print(phonebook)
 
-"""
+
 
 print()
 print('*****  end section 3 ********')
@@ -163,7 +159,6 @@ print()
 print('*****  end section 9 ********')
 print()
 
-"""
 
 
 

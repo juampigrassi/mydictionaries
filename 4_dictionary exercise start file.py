@@ -71,24 +71,16 @@ def deal_cards(deck, number):
     
 
     # Deal the cards and accumulate their values.
-    """
-    for num in range(number):
-        card, value = deck.popitem()
-        print(card)
-    """
+   
     for num in range(number):
         card = random.choice(list(deck))
         value = deck[card]
         print(card)
         hand_value += value
     
-    
-    
-
     # Display the value of the hand.
 
     print(hand_value)
     
-
 # Call the main function.
 main()
